@@ -7,7 +7,7 @@
 Bike share data statistics 
 
 ### Description
-Bike share data analysis by providing statistics to uncover bike share usage patterns in multiple cities.
+Bike share data analysis by providing statistics to uncover bike share usage patterns in multiple cities, by entering filters and city name to begin calculations showing answers and data.
 
 ### Files used
 Data files: (chicago.csv, new_york_city.csv, washington.csv) provided by _Motivate_.
