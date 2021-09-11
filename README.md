@@ -10,11 +10,11 @@ Bike share data statistics
 Bike share data analysis by providing statistics to uncover bike share usage patterns in multiple cities.
 
 ### Files used
-Data files: (chicago.csv, new_york_city.csv, washington.csv) provided by Motivate.
+Data files: (chicago.csv, new_york_city.csv, washington.csv) provided by _Motivate_.
 
 ### Credits
 Resources helped for completing the project
--https://pandas.pydata.org/
--https://stackoverflow.com/
--https://www.geeksforgeeks.org/
+[Pandas](https://pandas.pydata.org)
+[Stackoverflow](https://stackoverflow.com)
+[GeeksForGeeks](https://www.geeksforgeeks.org)
 
