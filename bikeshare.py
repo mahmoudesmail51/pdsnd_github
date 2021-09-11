@@ -20,14 +20,12 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
 
-    print('Hello! Let\'s explore some US bikeshare data!'
-    )
+    print('Hello! Let\'s explore some US bikeshare data!')
 
     #get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         try:
-            print('Would you like to see data for Chicago, New York, or Washington')
-            city = input()
+            city = input('Would you like to see data for Chicago, New York, or Washington')
             if city.lower() not in ['chicago','new york','washington','newyork']:
                 raise ValueError('Select only Chicago, New York or Washington only!')
             break
@@ -37,8 +35,7 @@ def get_filters():
     #get user input for month (all, january, february, ... , june)
     while True:
         try:
-            print('Would you like to filter by month, day, both, or not at all? Type \"all\" for no filter.')
-            option = input()
+            option = input('Would you like to filter by month, day, both, or not at all? Type \"all\" for no filter.')
             if option.lower() not in ['month','day','both','all']:
                 raise ValueError('Select only for filtering options: month, day, both or all for no filtering.')
             elif option.lower() == 'month':
@@ -82,8 +79,7 @@ def get_day():
     day = ''
     while True:
         try:
-            print('Which day? Enter full day Sunday, Monday, Tuesday etc...')
-            day = input()
+            day = input('Which day? Enter full day Sunday, Monday, Tuesday etc...')
             if day.lower() not in ['saturday','sunday','monday','tuesday','wednesday','thursday','friday']:
                 raise ValueError('Select only one day of the week Sunday, Monday, etc...')
             break
